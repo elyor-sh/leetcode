@@ -1,8 +1,8 @@
-import { xorOperation } from "./helpers/solutions/xorOperations"
+import { totalMoney } from "./solutions/totalMoney"
 import { execute } from "./helpers/performance"
 
 
-execute(() => xorOperation(5, 0))
+execute(() => totalMoney(20))
 
 
 

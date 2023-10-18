@@ -7,7 +7,7 @@ class TimeChecker {
   }
 
   logDiff = () => {
-    console.log('Bajarilish vaqti: ', performance.now() - this.now);
+    console.log('Execution time: ', performance.now() - this.now);
   }
 }
 
