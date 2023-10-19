@@ -1,12 +1,5 @@
-import { totalMoney } from "./solutions/totalMoney"
 import { execute } from "./helpers/performance"
+import { pivotInteger } from "./solutions/pivotInteger"
 
 
-execute(() => totalMoney(20))
-
-
-
-
-
-
-
+execute(() => pivotInteger(8))

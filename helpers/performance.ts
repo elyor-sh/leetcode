@@ -1,6 +1,11 @@
 class TimeChecker {
 
-  now: number = performance.now()
+  now: number
+
+  constructor () {
+    this.now = performance.now()
+  
+  }
 
   start = () => {
     this.now = performance.now()
@@ -11,10 +16,8 @@ class TimeChecker {
   }
 }
 
-export const timeChecker = new TimeChecker()
-
 export const execute = (cb: () => any, withTime = true) => {
-  withTime && timeChecker.start()
+  const time = new TimeChecker()
   console.log(cb());
-  withTime && timeChecker.logDiff()
+  withTime && time.logDiff()
 }
