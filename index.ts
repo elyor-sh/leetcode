@@ -1,4 +1,4 @@
-import { splitNum } from "./solutions/splitNum"
 import { execute } from "./helpers/performance"
+import {differenceOfSums} from "./solutions/differenceOfSums";
 
-execute(() => splitNum(4325))
+execute(() => differenceOfSums(10, 3))
