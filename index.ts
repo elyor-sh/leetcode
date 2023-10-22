@@ -1,4 +1,4 @@
-import { execute } from "./helpers/performance"
-import {differenceOfSums} from "./solutions/differenceOfSums";
+import { execute } from "./helpers/performance";
+import {smallestRangeI} from "./solutions/smallestRangeI";
 
-execute(() => differenceOfSums(10, 3))
+execute(() => smallestRangeI([1], 0));
