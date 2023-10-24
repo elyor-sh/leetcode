@@ -1,6 +1,6 @@
-import { targetIndices } from "./solutions/targetIndices";
+import { sumOfUnique } from "./solutions/sumOfUnique";
 import { execute } from "./helpers/performance";
+import { secondHighest } from "./solutions/secondHighest";
 
 
-
-execute(() => targetIndices([1,2,5,2,3], 2));
+execute(() => secondHighest('ck077'));
