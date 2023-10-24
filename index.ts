@@ -1,4 +1,6 @@
+import { targetIndices } from "./solutions/targetIndices";
 import { execute } from "./helpers/performance";
-import {smallestRangeI} from "./solutions/smallestRangeI";
 
-execute(() => smallestRangeI([1], 0));
+
+
+execute(() => targetIndices([1,2,5,2,3], 2));
