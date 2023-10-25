@@ -1,6 +1,5 @@
-import { sumOfUnique } from "./solutions/sumOfUnique";
+import { getCommon } from "./solutions/getCommon";
 import { execute } from "./helpers/performance";
-import { secondHighest } from "./solutions/secondHighest";
 
 
-execute(() => secondHighest('ck077'));
+execute(() => getCommon([1, 2, 3], [2, 4]))
