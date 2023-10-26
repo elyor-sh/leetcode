@@ -1,5 +1,4 @@
-import { getCommon } from "./solutions/getCommon";
+import { countWords } from "./solutions/countWords";
 import { execute } from "./helpers/performance";
 
-
-execute(() => getCommon([1, 2, 3], [2, 4]))
+execute(() => countWords(["leetcode","is","amazing","as","is"], ["amazing","leetcode","is"]))
