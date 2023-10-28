@@ -1,4 +1,4 @@
-import { isAcronym } from "./solutions/isAcronym";
 import { execute } from "./helpers/performance";
+import {intToRoman} from "./solutions/intToRoman";
 
-execute(() => isAcronym(["alice","bob","charlie"], 'abc'))
+execute(() => intToRoman(1994))
