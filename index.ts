@@ -1,4 +1,4 @@
 import { execute } from "./helpers/performance";
-import {intToRoman} from "./solutions/intToRoman";
+import {constructFromPrePost} from "./solutions/contructFromPrePost";
 
-execute(() => intToRoman(1994))
+execute(() => constructFromPrePost([1,2,4,5,3,6,7], [4,5,2,6,7,3,1]))

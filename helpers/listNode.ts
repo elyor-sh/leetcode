@@ -25,7 +25,7 @@ export function linkedListGenerator(arr: number[]): ListNode | null {
   return head;
 }
 
-export const arrayFormLinkedList = (list: ListNode | null): number[] => {
+export const arrayFromLinkedList = (list: ListNode | null): number[] => {
 
   if(!list) return []
 
