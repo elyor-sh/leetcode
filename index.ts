@@ -1,5 +1,7 @@
 import { execute } from "./helpers/performance";
-import { findTheDistanceValue } from "./solutions/findTheDistanceValue";
+import { TreeNode, fromArrayToTree } from "./helpers/treeNode";
+import { getMinimumDifference } from "./solutions/getMinimumDifference";
 
 
-execute(() => findTheDistanceValue([4,5,8], [10,9,1,8], 2))
+
+execute(() => getMinimumDifference(fromArrayToTree([4,2,6,1,3])))
