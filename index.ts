@@ -1,11 +1,5 @@
+import { nearestValidPoint } from "./solutions/nearestValidPoint";
 import { execute } from "./helpers/performance";
-import { TreeNode, fromArrayToTree } from "./helpers/treeNode";
-import { getMinimumDifference } from "./solutions/getMinimumDifference";
 
 
-// function diameterOfBinaryTree(root: TreeNode | null): number {
-
-// };
-
-
-execute(() => getMinimumDifference(fromArrayToTree([4,2,6,1,3])))
+execute(() => nearestValidPoint(3, 4, [[1,2],[3,1],[2,4],[2,3],[4,4]]))
