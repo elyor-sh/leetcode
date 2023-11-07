@@ -1,5 +1,5 @@
-import { nearestValidPoint } from "./solutions/nearestValidPoint";
+import { buildArray } from "./solutions/buildArray";
 import { execute } from "./helpers/performance";
 
 
-execute(() => nearestValidPoint(3, 4, [[1,2],[3,1],[2,4],[2,3],[4,4]]))
+execute(() => buildArray([0,2,1,5,3,4]))
