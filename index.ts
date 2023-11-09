@@ -1,5 +1,5 @@
-import { buildArray } from "./solutions/buildArray";
+import { findSubarrays } from "./solutions/findSubarrays";
 import { execute } from "./helpers/performance";
 
 
-execute(() => buildArray([0,2,1,5,3,4]))
+execute(() => findSubarrays([1, -4, 4]))
