@@ -1,5 +1,6 @@
-import { findSubarrays } from "./solutions/findSubarrays";
 import { execute } from "./helpers/performance";
+import { diagonalSum } from "./solutions/diagonalSum";
 
 
-execute(() => findSubarrays([1, -4, 4]))
+
+execute(() => diagonalSum( [[1,2,3],[4,5,6],[7,8,9]]))
