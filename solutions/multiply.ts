@@ -1,6 +1,7 @@
-import { execute } from "./helpers/performance";
 
-function multiply(num1: string, num2: string): string {
+// https://leetcode.com/problems/multiply-strings/description/
+
+export function multiply(num1: string, num2: string): string {
   if(num1 == "0" || num2 == "0") return "0";
   let rows = [];
   let longest = 0;
@@ -32,6 +33,3 @@ function multiply(num1: string, num2: string): string {
   
   return total;
 };
-
-
-execute(() => multiply("123456789", "987654321")) 
