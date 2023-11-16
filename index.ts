@@ -1,6 +1,6 @@
-import { multiply } from "./solutions/multiply";
+import { fromArrayToTree } from "./helpers/treeNode";
 import { execute } from "./helpers/performance";
+import { findFrequentTreeSum } from "./solutions/findFrequentTreeSum";
 
 
-
-execute(() => multiply("123456789", "987654321")) 
+execute(() => findFrequentTreeSum(fromArrayToTree([5,2,-3])))
