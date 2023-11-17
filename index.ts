@@ -1,6 +1,5 @@
-import { fromArrayToTree } from "./helpers/treeNode";
+import { minPairSum } from "./solutions/minPairSum";
 import { execute } from "./helpers/performance";
-import { findFrequentTreeSum } from "./solutions/findFrequentTreeSum";
 
 
-execute(() => findFrequentTreeSum(fromArrayToTree([5,2,-3])))
+execute(() => minPairSum([3,5,2,3]))
