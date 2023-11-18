@@ -1,5 +1,4 @@
-import { minPairSum } from "./solutions/minPairSum";
 import { execute } from "./helpers/performance";
+import {longestSubstring} from "./solutions/longestSubstring";
 
-
-execute(() => minPairSum([3,5,2,3]))
+execute(() => longestSubstring("ababbc", 2))
