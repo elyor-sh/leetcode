@@ -1,5 +1,5 @@
-import { lengthOfLongestSubstring } from "./solutions/lengthOfLongestSubstring";
+import { permuteUnique } from "./solutions/permuteUnique";
 import { execute } from "./helpers/performance";
 
 
-execute(() => lengthOfLongestSubstring("pwwkew"))
+execute(() => permuteUnique([1, 1, 2]))
