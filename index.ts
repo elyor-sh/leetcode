@@ -1,6 +1,6 @@
-import { minPathSum } from "./solutions/minPathSum";
+import { recoverTree } from "./solutions/recoverTree";
 import { execute } from "./helpers/performance";
+import { fromArrayToTree } from "./helpers/treeNode";
 
 
-
-execute(() => minPathSum([[1,2,3],[4,5,6]]))
+execute(() => recoverTree(fromArrayToTree([3,1,4,null,null,2])))
