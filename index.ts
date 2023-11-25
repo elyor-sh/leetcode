@@ -1,6 +1,5 @@
-import { recoverTree } from "./solutions/recoverTree";
 import { execute } from "./helpers/performance";
-import { fromArrayToTree } from "./helpers/treeNode";
+import {fromArrayToTree, TreeNode} from "./helpers/treeNode";
+import {rightSideView} from "./solutions/rightSideView";
 
-
-execute(() => recoverTree(fromArrayToTree([3,1,4,null,null,2])))
+execute(() => rightSideView(fromArrayToTree([1,2,3,null,5,null,4])))
