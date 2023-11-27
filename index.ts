@@ -1,5 +1,6 @@
+import { kthSmallest } from "./solutions/kthSmallest";
 import { execute } from "./helpers/performance";
-import {fromArrayToTree, TreeNode} from "./helpers/treeNode";
-import {rightSideView} from "./solutions/rightSideView";
+import { TreeNode, fromArrayToTree } from "./helpers/treeNode";
 
-execute(() => rightSideView(fromArrayToTree([1,2,3,null,5,null,4])))
+
+execute(() => kthSmallest(fromArrayToTree([3,1,4,null,2]), 1))
