@@ -1,5 +1,5 @@
-import { reverseWords } from "./solutions/reverseWords";
 import { execute } from "./helpers/performance";
+import { calculate } from "./solutions/calculate";
 
 
-execute(() => reverseWords("   the sky is blue  "))
+execute(() => calculate( "3/2"))
