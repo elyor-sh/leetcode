@@ -1,5 +1,5 @@
 import { execute } from "./helpers/performance";
-import { calculate } from "./solutions/calculate";
+import { jump } from "./solutions/jump";
 
 
-execute(() => calculate( "3/2"))
+execute(() => jump([2,3,1,1,4]))
