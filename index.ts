@@ -1,5 +1,5 @@
 import { execute } from "./helpers/performance";
-import { jump } from "./solutions/jump";
+import { spiralOrder } from "./solutions/spiralOrder";
 
 
-execute(() => jump([2,3,1,1,4]))
+execute(() => spiralOrder([[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]]))
