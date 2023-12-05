@@ -1,5 +1,5 @@
-import { findMinArrowShots } from "./solutions/findMinArrowShots";
 import { execute } from "./helpers/performance";
+import { arrayFromLinkedList, linkedListGenerator } from "./helpers/listNode";
+import { reverseBetween } from "./solutions/reverseBetween";
 
-
-execute(() => findMinArrowShots([[1,2],[2,3],[3,4],[4,5]]))
+execute(() => arrayFromLinkedList(reverseBetween(linkedListGenerator([1,2,3,4,5]), 2, 4)))
