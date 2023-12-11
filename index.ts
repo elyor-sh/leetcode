@@ -1,11 +1,8 @@
+import { transpose } from "./solutions/transpose";
 import { execute } from "./helpers/performance";
-import { ListNode, arrayFromLinkedList, linkedListGenerator } from "./helpers/listNode";
+import { search } from "./solutions/search[bs]";
+import { searchRange } from "./solutions/searchRange";
 
-function deleteDuplicates(head: ListNode | null): ListNode | null {
-    if(!head){
-      return null
-    }
 
-    return null
-};
 
+execute(() => searchRange([5,7,7,8,8,10], 8))
