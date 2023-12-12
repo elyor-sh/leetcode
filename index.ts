@@ -1,8 +1,5 @@
 import { transpose } from "./solutions/transpose";
 import { execute } from "./helpers/performance";
-import { search } from "./solutions/search[bs]";
-import { searchRange } from "./solutions/searchRange";
+import { findPeakElement } from "./solutions/findPeakElement";
 
-
-
-execute(() => searchRange([5,7,7,8,8,10], 8))
+execute(() => findPeakElement([1,2]))
