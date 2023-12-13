@@ -1,5 +1,6 @@
 import { transpose } from "./solutions/transpose";
 import { execute } from "./helpers/performance";
-import { findPeakElement } from "./solutions/findPeakElement";
+import { lengthOfLIS } from "./solutions/lengthOfLIS";
 
-execute(() => findPeakElement([1,2]))
+
+execute(() => lengthOfLIS([10,9,2,5,3,7,101,18]))
