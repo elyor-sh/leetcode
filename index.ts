@@ -1,6 +1,5 @@
-import { transpose } from "./solutions/transpose";
 import { execute } from "./helpers/performance";
-import { lengthOfLIS } from "./solutions/lengthOfLIS";
+import { judgeSquareSum } from "./solutions/judgeSquareSum";
 
 
-execute(() => lengthOfLIS([10,9,2,5,3,7,101,18]))
+execute(() => judgeSquareSum(5)) 
