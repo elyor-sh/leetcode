@@ -1,5 +1,6 @@
-import { execute } from "./helpers/performance";
-import { judgeSquareSum } from "./solutions/judgeSquareSum";
+import {findClosestElements} from "./solutions/findClosestElements";
+import {execute} from "./helpers/performance";
+import { reachNumber } from "./solutions/reachNumber";
 
 
-execute(() => judgeSquareSum(5)) 
+execute(() => reachNumber(3))
