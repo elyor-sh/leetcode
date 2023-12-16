@@ -17,3 +17,15 @@ export function largestOddNumber(num: string): string {
 
   return num.slice(0, end)
 };
+
+// function largestOddNumber(num: string): string {
+//
+//   for (let i = num.length - 1; i >= 0; i--){
+//     const char = num[i]
+//     if(parseInt(char) % 2 > 0){
+//       return num.slice(0, i + 1)
+//     }
+//   }
+//
+//   return ''
+// }

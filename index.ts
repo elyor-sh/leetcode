@@ -1,11 +1,6 @@
 import { execute } from "./helpers/performance";
-import { ListNode, arrayFromLinkedList, linkedListGenerator } from "./helpers/listNode";
+import {fromArrayToTree, TreeNode} from "./helpers/treeNode";
+import {inorderTraversal} from "./solutions/inorderTraversal";
 
-function deleteDuplicates(head: ListNode | null): ListNode | null {
-    if(!head){
-      return null
-    }
-
-    return null
-};
+execute(() => inorderTraversal(fromArrayToTree([1,null,2,3])))
 
