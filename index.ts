@@ -1,6 +1,5 @@
 import {findClosestElements} from "./solutions/findClosestElements";
 import {execute} from "./helpers/performance";
-import { reachNumber } from "./solutions/reachNumber";
+import {smallestDivisor} from "./solutions/smallestDivisor";
 
-
-execute(() => reachNumber(3))
+execute(() => smallestDivisor([1,2,5,9], 6))
