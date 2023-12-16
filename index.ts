@@ -1,6 +1,6 @@
-import { execute } from "./helpers/performance";
-import {fromArrayToTree, TreeNode} from "./helpers/treeNode";
-import {inorderTraversal} from "./solutions/inorderTraversal";
+import {findClosestElements} from "./solutions/findClosestElements";
+import {execute} from "./helpers/performance";
+import { reachNumber } from "./solutions/reachNumber";
 
-execute(() => inorderTraversal(fromArrayToTree([1,null,2,3])))
 
+execute(() => reachNumber(3))
