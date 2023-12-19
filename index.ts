@@ -1,6 +1,6 @@
+import { maxProductDifference } from "./solutions/maxProductDifference";
 import {execute} from "./helpers/performance";
-import {maxCount} from "./solutions/maxCount";
-import {maximumTastiness} from "./solutions/maximumTastiness";
+import { wiggleSort } from "./solutions/wiggleSort";
 
+execute(() => wiggleSort([10, 7, 9, 15, 18, 4]));
 
-execute(() => maximumTastiness([13,5,1,8,21,2], 3))
