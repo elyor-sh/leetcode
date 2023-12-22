@@ -1,6 +1,9 @@
 import { maxProductDifference } from "./solutions/maxProductDifference";
 import {execute} from "./helpers/performance";
-import { maxWidthOfVerticalArea } from "./solutions/maxWidthOfVerticalArea";
+import { findAnagrams } from "./solutions/findAnagrams";
+
+execute(() => findAnagrams("abab", "ab"));
 
 
-execute(() => maxWidthOfVerticalArea([[8,7],[9,9],[7,4],[9,7]]));
+
+
