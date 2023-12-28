@@ -1,6 +1,11 @@
+import { getLengthOfOptimalCompression } from "./solutions/getLengthOfOptimalCompression";
 import { execute } from "./helpers/performance";
-import { numSquares } from "./solutions/numSquares";
 
 
-execute(() => numSquares(12));
+
+execute(() => getLengthOfOptimalCompression("aaabcccd", 2));
+
+
+
+
 
