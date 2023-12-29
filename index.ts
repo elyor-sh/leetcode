@@ -3,10 +3,11 @@ import { execute } from "./helpers/performance";
 import { pacificAtlantic } from "./solutions/pacificAtlantic";
 import { TreeNode, fromArrayToTree } from "./helpers/treeNode";
 import { largestValues } from "./solutions/largestValues";
+import { minDifficulty } from "./solutions/minDifficulty";
 
 
 
-execute(() => largestValues(fromArrayToTree([1, 3, 2, 5, 3, null, 9])));
+execute(() => minDifficulty([6,5,4,3,2,1], 2));
 
 
 
