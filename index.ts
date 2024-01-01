@@ -1,13 +1,18 @@
-import { getLengthOfOptimalCompression } from "./solutions/getLengthOfOptimalCompression";
 import { execute } from "./helpers/performance";
-import { pacificAtlantic } from "./solutions/pacificAtlantic";
-import { TreeNode, fromArrayToTree } from "./helpers/treeNode";
-import { largestValues } from "./solutions/largestValues";
 import { minDifficulty } from "./solutions/minDifficulty";
+import {TreeNode} from "./helpers/treeNode"
 
+function lexicalOrder(n: number): number[] {
+    const arr: number[] = []
 
+    for (let i = 1; i <= n; i++){
+        arr.push(i)
+    }
 
-execute(() => minDifficulty([6,5,4,3,2,1], 2));
+    return arr.sort()
+};
+
+execute(() => lexicalOrder(13));
 
 
 
