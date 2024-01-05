@@ -1,7 +1,5 @@
 import { execute } from "./helpers/performance";
-import { fromArrayToTree } from "./helpers/treeNode";
-import { findDuplicateSubtrees } from "./solutions/findDuplicateSubtrees";
+import {fromArrayToTree, TreeNode} from "./helpers/treeNode";
+import {replaceValueInTree} from "./solutions/replaceValueInTree";
 
-
-
-execute(() => findDuplicateSubtrees(fromArrayToTree([1,2,3,4,null,2,4,null,null,4])));
+execute(() => replaceValueInTree(fromArrayToTree([5,4,9,1,10,null,7])));
