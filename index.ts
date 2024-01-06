@@ -1,5 +1,4 @@
 import { execute } from "./helpers/performance";
-import {fromArrayToTree, TreeNode} from "./helpers/treeNode";
-import {replaceValueInTree} from "./solutions/replaceValueInTree";
+import {minimumEffortPath} from "./solutions/1631.minimumEffortPath";
 
-execute(() => replaceValueInTree(fromArrayToTree([5,4,9,1,10,null,7])));
+execute(() => minimumEffortPath([[1,2,2],[3,8,2],[5,3,5]]));
