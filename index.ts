@@ -1,6 +1,4 @@
 import { execute } from "./helpers/performance";
-import { fromArrayToTree } from "./helpers/treeNode";
-import { findDuplicateSubtrees } from "./solutions/findDuplicateSubtrees";
+import {minimumEffortPath} from "./solutions/1631.minimumEffortPath";
 
-
-execute(() => findDuplicateSubtrees(fromArrayToTree([1,2,3,4,null,2,4,null,null,4])));
+execute(() => minimumEffortPath([[1,2,2],[3,8,2],[5,3,5]]));
