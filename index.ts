@@ -1,4 +1,4 @@
 import { execute } from "./helpers/performance";
-import {minimumEffortPath} from "./solutions/1631.minimumEffortPath";
+import {numberOfArithmeticSlices} from "./solutions/446.numberOfArithmeticSlices";
 
-execute(() => minimumEffortPath([[1,2,2],[3,8,2],[5,3,5]]));
+execute(() => numberOfArithmeticSlices([2,4,6,8,10]));
