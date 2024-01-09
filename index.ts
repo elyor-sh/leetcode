@@ -1,6 +1,7 @@
 import { execute } from "./helpers/performance";
 import {fromArrayToTree} from "./helpers/treeNode";
-import {rangeSumBST} from "./solutions/938.rangeSumBST";
+import {leafSimilar} from "./solutions/872.leafSimilar";
 
 
-execute(() => rangeSumBST(fromArrayToTree([10,5,15,3,7,null,18]), 7, 15));
+
+execute(() => leafSimilar(fromArrayToTree([1,2,null,3]), fromArrayToTree([1,3])));
