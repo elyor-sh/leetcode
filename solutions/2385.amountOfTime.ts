@@ -1,8 +1,9 @@
-import { execute } from "./helpers/performance";
-import {fromArrayToTree, TreeNode} from "./helpers/treeNode";
-import {leafSimilar} from "./solutions/872.leafSimilar";
 
-function amountOfTime(root: TreeNode | null, start: number): number {
+// https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected
+
+import {TreeNode} from "../helpers/treeNode";
+
+export function amountOfTime(root: TreeNode | null, start: number): number {
     const graph = new Graph(root)
     return graph.maxDistanceFrom(start)
 }
@@ -74,5 +75,3 @@ class Graph {
         this.init(root.right)
     }
 }
-
-execute(() => amountOfTime(fromArrayToTree([1]), 1));
