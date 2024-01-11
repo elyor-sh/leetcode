@@ -1,7 +1,5 @@
-import { amountOfTime } from "./solutions/2385.amountOfTime";
 import { execute } from "./helpers/performance";
-import { allPathsSourceTarget } from "./solutions/797.allPathsSourceTarget";
+import {fromArrayToTree} from "./helpers/treeNode";
+import {maxAncestorDiff} from "./solutions/1026.maxAncestorDiff";
 
-
-
-execute(() => allPathsSourceTarget([[4,3,1],[3,2,4],[3],[4],[]]));
+execute(() => maxAncestorDiff(fromArrayToTree([8,3,10,1,6,null,14,null,null,4,7,13])));
