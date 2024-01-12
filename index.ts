@@ -1,4 +1,4 @@
-import { eventualSafeNodes } from "./solutions/802.eventualSafeNodes";
 import { execute } from "./helpers/performance";
+import {canFinish} from "./solutions/207.canFinish";
 
-execute(() => eventualSafeNodes([[],[0,2,3,4],[3],[4],[]]));
+execute(() => canFinish(5,[[1,4],[2,4],[3,1],[3,2]]));
