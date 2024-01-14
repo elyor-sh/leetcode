@@ -1,4 +1,4 @@
 import { execute } from "./helpers/performance";
-import {findMinHeightTrees} from "./solutions/310.findMinHeightTrees";
+import {findChampion} from "./solutions/2924.findChampion";
 
-execute(() => findMinHeightTrees(6,[[3,0],[3,1],[3,2],[3,4],[5,4]]));
+execute(() => findChampion(4, [[0,2],[1,3],[1,2]])); //[[0,2],[1,3],[1,2]]
