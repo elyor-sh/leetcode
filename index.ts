@@ -1,4 +1,4 @@
 import { execute } from "./helpers/performance";
-import {canFinish} from "./solutions/207.canFinish";
+import {findMinHeightTrees} from "./solutions/310.findMinHeightTrees";
 
-execute(() => canFinish(5,[[1,4],[2,4],[3,1],[3,2]]));
+execute(() => findMinHeightTrees(6,[[3,0],[3,1],[3,2],[3,4],[5,4]]));
