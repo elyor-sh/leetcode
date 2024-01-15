@@ -1,5 +1,5 @@
 import { execute } from "./helpers/performance";
-import {canFinish} from "./solutions/207.canFinish";
+import {findChampion} from "./solutions/2924.findChampion";
 
 function find(edge:number,parents:Array<number>){
   if(parents[edge]===edge){
