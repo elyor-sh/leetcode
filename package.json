@@ -14,8 +14,6 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "mobx": "^6.10.2",
     "ts-node": "^10.9.1"
   }
 }

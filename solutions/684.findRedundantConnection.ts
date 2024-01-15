@@ -1,14 +1,15 @@
-import { execute } from "./helpers/performance";
-import {canFinish} from "./solutions/207.canFinish";
+
+// https://leetcode.com/problems/redundant-connection/description/
 
 function find(edge:number,parents:Array<number>){
-  if(parents[edge]===edge){
+  if(parents[edge]==edge){
       return edge;
   }
       
   return find(parents[edge],parents)   
 }
-function findRedundantConnection(edges: number[][]): number[] {
+
+export function findRedundantConnection(edges: number[][]): number[] {
   let n=edges.length;
   const parents=new Array(n+1);
   
@@ -30,5 +31,3 @@ function findRedundantConnection(edges: number[][]): number[] {
   
   return []
 };
-
-execute(() => findRedundantConnection([[1,2],[1,3],[2,3]]));
