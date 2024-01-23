@@ -1,4 +1,4 @@
 import { execute } from "./helpers/performance";
-import {findErrorNums} from "./solutions/645.findErrorNums";
+import {maxLength} from "./solutions/1239.maxLength";
 
-execute(() => findErrorNums([1,1]));
+execute(() => maxLength(["a", "abc", "d", "de", "def"]));
