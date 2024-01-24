@@ -1,4 +1,5 @@
+import { fromArrayToTree } from "./helpers/treeNode";
 import { execute } from "./helpers/performance";
-import {maxLength} from "./solutions/1239.maxLength";
+import { pseudoPalindromicPaths } from "./solutions/1457.pseudoPalindromicPaths";
 
-execute(() => maxLength(["a", "abc", "d", "de", "def"]));
+execute(() => pseudoPalindromicPaths(fromArrayToTree([2,3,1,3,1,null,1])));
