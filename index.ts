@@ -1,5 +1,4 @@
-import { fromArrayToTree } from "./helpers/treeNode";
 import { execute } from "./helpers/performance";
-import { pseudoPalindromicPaths } from "./solutions/1457.pseudoPalindromicPaths";
+import {longestCommonSubsequence} from "./solutions/1143.longestCommonSubsequence";
 
-execute(() => pseudoPalindromicPaths(fromArrayToTree([2,3,1,3,1,null,1])));
+execute(() => longestCommonSubsequence("abcde", 'ace'));
