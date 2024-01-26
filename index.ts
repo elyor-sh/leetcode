@@ -1,4 +1,4 @@
 import { execute } from "./helpers/performance";
-import {longestCommonSubsequence} from "./solutions/1143.longestCommonSubsequence";
+import {findPaths} from "./solutions/576.findPaths";
 
-execute(() => longestCommonSubsequence("abcde", 'ace'));
+execute(() => findPaths(2,2,2,0,0));
