@@ -1,4 +1,4 @@
 import { execute } from "./helpers/performance";
-import {findPaths} from "./solutions/576.findPaths";
+import {kInversePairs} from "./solutions/629.kInversePairs";
 
-execute(() => findPaths(2,2,2,0,0));
+execute(() => kInversePairs(3, 0));
