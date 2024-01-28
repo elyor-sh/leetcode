@@ -1,4 +1,4 @@
 import { execute } from "./helpers/performance";
-import {kInversePairs} from "./solutions/629.kInversePairs";
+import {numSubmatrixSumTarget} from "./solutions/1074.numSubmatrixSumTarget";
 
-execute(() => kInversePairs(3, 0));
+execute(() => numSubmatrixSumTarget([[0,1,0],[1,1,1],[0,1,0]], 0));
