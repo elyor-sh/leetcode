@@ -1,4 +1,4 @@
 import { execute } from "./helpers/performance";
-import {findPaths} from "./solutions/576.findPaths";
+import {numSubmatrixSumTarget} from "./solutions/1074.numSubmatrixSumTarget";
 
-execute(() => findPaths(2,2,2,0,0));
+execute(() => numSubmatrixSumTarget([[0,1,0],[1,1,1],[0,1,0]], 0));
