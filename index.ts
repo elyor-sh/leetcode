@@ -1,4 +1,4 @@
 import { execute } from "./helpers/performance";
-import {numSubmatrixSumTarget} from "./solutions/1074.numSubmatrixSumTarget";
+import {dailyTemperatures} from "./solutions/739.dailyTemperatures";
 
-execute(() => numSubmatrixSumTarget([[0,1,0],[1,1,1],[0,1,0]], 0));
+execute(() => dailyTemperatures([73,74,75,71,69,72,76,73]));
