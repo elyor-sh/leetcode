@@ -1,4 +1,4 @@
 import { execute } from "./helpers/performance";
-import {dailyTemperatures} from "./solutions/739.dailyTemperatures";
+import {divideArray} from "./solutions/2966.divideArray";
 
-execute(() => dailyTemperatures([73,74,75,71,69,72,76,73]));
+execute(() => divideArray([1,3,4,8,7,9,3,5,1], 2));
