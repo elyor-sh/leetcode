@@ -1,4 +1,5 @@
 import { execute } from "./helpers/performance";
-import {divideArray} from "./solutions/2966.divideArray";
+import {subdomainVisits} from "./solutions/811.subdomainVisits";
 
-execute(() => divideArray([1,3,4,8,7,9,3,5,1], 2));
+
+execute(() => subdomainVisits(["900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"]));
